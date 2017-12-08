@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { TabsPage } from '../tabs/tabs';
 
 
 @IonicPage()
@@ -10,6 +11,11 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class LoginPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+
+
+  login() {
+    this.navCtrl.push(TabsPage, {}, {animate: false});
   }
 
   ionViewDidLoad() {
