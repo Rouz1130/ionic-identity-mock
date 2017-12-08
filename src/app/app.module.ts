@@ -1,3 +1,4 @@
+
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
@@ -22,9 +23,9 @@ import { SignaturePadModule } from 'angular2-signaturepad';
     ContactPage,
     HomePage,
     TabsPage, 
-    Welcome,
-    Login,
-    Signup
+    WelcomePage,
+    LoginPage,
+    SignupPage
   ],
   imports: [
     BrowserModule,
@@ -36,9 +37,9 @@ import { SignaturePadModule } from 'angular2-signaturepad';
     AboutPage,
     ContactPage,
     HomePage,
-    Welcome,
-    Login,
-    Signup,
+    WelcomePage,
+    LoginPage,
+    SignupPage,
     TabsPage
   ],
   providers: [
