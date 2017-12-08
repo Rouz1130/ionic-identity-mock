@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { LoginPage } from '../login/login';
 import { SignupPage } from '../signup/signup';
+import { HomePage } from '../home/home';
 
 
 @IonicPage()
@@ -24,6 +25,11 @@ export class WelcomePage {
     this.navCtrl.push(SignupPage)
   }
 
+  goHome() {
+
+   this.navCtrl.push(HomePage) 
+
+  }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad WelcomePage');

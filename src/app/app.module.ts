@@ -29,6 +29,7 @@ import { SignaturePadModule } from 'angular2-signaturepad';
   ],
   imports: [
     BrowserModule,
+    SignaturePadModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
